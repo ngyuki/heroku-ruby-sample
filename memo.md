@@ -31,10 +31,9 @@
 
 公開鍵は次のように登録します。
 
-
     heroku keys:add /path/to/id_rsa.pub
 
-後、known_hosts に登録するため、一旦 heroku に SSH でログインしておきましょう。
+known_hosts に登録するため、一旦 heroku に SSH でログインしておきましょう。
 
     plink git@heroku.com
 
